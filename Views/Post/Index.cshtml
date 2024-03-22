@@ -1,0 +1,32 @@
+@model List<Post>
+
+<div class="row">
+    <div class="col-lg-8">
+        <div class="bg-white p-4">
+            <h1 class="h4 mb-4"> Popüler Postlar</h1>
+            <hr class="my-3">
+            @foreach (var post in Model)
+            {
+                <div class="card mb-4">
+
+                    <div class="row">
+                        
+                        <div class="col-8">
+                            <h5><a href="#" class="fw-bold">@post.Title </a></h5>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis illo voluptatem facere aliquam asperiores minus obcaecati deleniti ipsum quae molestiae, voluptatum impedit atque hic voluptates debitis, accusamus consectetur ut fugit fugiat facilis in excepturi iure, delectus earum. Rem facilis cumque suscipit, mollitia voluptate ea voluptates ex, labore, maiores repellat explicabo?</p>
+                            <a href="#" class="badge bg-warning bg-opacity-8 text-danger mb-2 fw-bold">Web Geliştirme</a>
+                        </div>
+                        <div class="col-4">
+                            <img src="~/img/@post.Image" class="img-fluid" />
+                        </div>
+
+                    </div>
+
+                </div>
+            }
+            <hr class="my-3">
+
+                <div class="col-lg-4">
+
+                </div>
+            </div>
