@@ -21,10 +21,10 @@ namespace BlogAPP.Data.Concrete.EfCore
             if (!context.Tags.Any())
             {
                 context.Tags.AddRange(
-                    new Tag() { Name = "Web Programlama" },
-                    new Tag() { Name = "Backend " },
-                    new Tag() { Name = "Fullstack" },
-                    new Tag() { Name = "Game" }
+                    new Tag() { Text = "Web Programlama" },
+                    new Tag() { Text = "Backend " },
+                    new Tag() { Text = "Fullstack" },
+                    new Tag() { Text = "Game" }
 
                 );
                 context.SaveChanges();

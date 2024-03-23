@@ -81,7 +81,7 @@ namespace BlogApp.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
-                    b.Property<string>("Name")
+                    b.Property<string>("Text")
                         .HasColumnType("TEXT");
 
                     b.HasKey("TagId");

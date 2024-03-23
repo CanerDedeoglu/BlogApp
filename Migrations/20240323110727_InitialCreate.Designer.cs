@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BlogApp.Migrations
 {
     [DbContext(typeof(BlogContext))]
-    [Migration("20240322203506_InitialCreate")]
+    [Migration("20240323110727_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -84,7 +84,7 @@ namespace BlogApp.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
-                    b.Property<string>("Name")
+                    b.Property<string>("Text")
                         .HasColumnType("TEXT");
 
                     b.HasKey("TagId");

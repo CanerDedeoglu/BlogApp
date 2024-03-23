@@ -65,3 +65,4 @@ C:\Projeler\Backend-Bootcamp\BlogApp\obj\Debug\net7.0\BlogApp.RazorAssemblyInfo.
 C:\Projeler\Backend-Bootcamp\BlogApp\obj\Debug\net7.0\BlogApp.RazorAssemblyInfo.cs
 C:\Projeler\Backend-Bootcamp\BlogApp\bin\Debug\net7.0\libman.json
 C:\Projeler\Backend-Bootcamp\BlogApp\bin\Debug\net7.0\BlogApp.staticwebassets.runtime.json
+C:\Projeler\Backend-Bootcamp\BlogApp\obj\Debug\net7.0\BlogApp.sourcelink.json
